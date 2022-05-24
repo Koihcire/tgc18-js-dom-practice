@@ -8,17 +8,23 @@
   </head>
   <body>
     <div id="container">
+      <button id="topUp10">Top up \$10</button>
       <div class="box">
         <div>Account Balance</div>
         <div id="account">0</div>
       </div>
-      <button>Transfer $10 >>></button>
-      <button><<< Transfer $10</button>
+      <button id="transfer10ToWallet">Transfer $10 >>></button>
+      <button id="transfer10ToAccount"><<< Transfer $10</button>
       <div class="box" id="wallet">
         <div>Wallet Balance</div>
         <div id="other-wallet">0</div>
       </div>
+      <form>
+        <label for="spend">Spend</label><br>
+        <input type="text" id="spend">
+        <input type="submit" value="submit" id="submit">
+      </form>
     </div>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
