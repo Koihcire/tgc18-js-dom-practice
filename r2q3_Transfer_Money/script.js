@@ -20,8 +20,7 @@ document.querySelector('#transfer10ToAccount').addEventListener('click', functio
 })
 
 document.querySelector('#spend').addEventListener('click', function(){
-    let spend = parseInt(document.querySelector('#spendAmt').value);
+    let spendAmt = parseInt(document.querySelector('#spendAmt').value);
     let walBal = parseInt(document.querySelector('#other-wallet').innerHTML);
-    document.querySelector('#other-wallet').innerHTML = walBal - spend;
-
+    document.querySelector('#other-wallet').innerHTML = walBal - spendAmt;
 })
