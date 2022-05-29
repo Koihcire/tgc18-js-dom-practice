@@ -1,5 +1,5 @@
 
-let box = document.getElementById("box");
+let box = document.querySelector(".box");
 
 box.addEventListener("mouseover", function(){
     box.style.backgroundColor = "black";
